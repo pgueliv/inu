@@ -1,3 +1,7 @@
+.container{
+    max-width: 1450px;
+}
+
 .bg-danger-100{
     background-color: #ff0100;
 }
@@ -59,4 +63,35 @@
 
 .bg-red-100{
     background-color: #ff0100 !important;
+}
+
+@media only screen and (max-width: 1199px){
+    
+    .container{
+        max-width: 1000px;
+    }
+
+    .section-2 .display-4{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    
+    .container{
+        max-width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+
+    .container{
+        max-width: 580px;
+    }
+
+    .section-7 .pr-0{
+        margin-top: -160px !important  ;
+    }
+
 }
